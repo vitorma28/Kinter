@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/encrypt.js" type="module" defer></script>
+    <script src="js/decrypt.js" type="module" defer></script>
+    <script src="js/clear.js" defer></script>
+</head>
+<body>
+    <main id="main">
+        <textarea id="text" placeholder="Digite o seu texto aqui."></textarea>
+        <div id="result">Resultado</div>
+    </main>
+    <aside id="options">
+        <div id="crypt_config">
+            Configurações de criptografia <br>
+            <hr>
+            <br>
+            <button id="encrypt">Criptografar</button>
+            <button id="decrypt">Descriptografar</button>
+            <button id="clear">Limpar</button>
+            <br><br>
+            <input type="text" id="key" placeholder="chave de criptografia">
+        </div>
+    </aside>
+</body>
+</html>
